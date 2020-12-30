@@ -4,6 +4,8 @@
 
 .contact th {
     width: 150px;
+    text-align: right;
+    padding-right: 10px;
 }
 
 .text {
