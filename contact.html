@@ -35,29 +35,31 @@
                 
             </aside>
             <article class="content">
+                <form action="index.html" method="post">
                 <table class="contact">
                     <tr>
                         <th>お名前</th>
-                        <td><input class="text" type="text"></td>
+                        <td><input class="text" name="name" type="text"></td>
                     </tr>
                     <tr>
                         <th>メールアドレス</th>
-                        <td><input class="text" type="text"></td>
+                        <td><input class="text" name="mailadress" type="text"></td>
                     </tr>
                     <tr>
                         <th>性別</th>
-                        <td><input type="radio">男
-                            <input type="radio">女
+                        <td><input type="radio" name="sex" value="male">男
+                            <input type="radio" name="sex" value="male">女
                         </td>
                     </tr>
                     <tr>
                         <th>お問い合わせ内容</th>
-                        <td><textarea class="textarea" ></textarea></td>
+                        <td><textarea class="textarea" name="otoiawase"></textarea></td>
                     </tr>
                 </table>
                 <div>
                      <input class="submit" type="submit">
                 </div>
+                </form>
             </article>
             </div>
             <footer class="footer">

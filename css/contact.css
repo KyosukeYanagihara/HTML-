@@ -17,7 +17,7 @@
 }
 
 .submit {
-    background-color: #87CEFA;
+    background-color: rgb(8, 128, 82);
     color: #fff;
     height: 4rem;
     width:  6rem;
@@ -27,7 +27,7 @@
 }
 
 .submit:hover {
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .content div {
